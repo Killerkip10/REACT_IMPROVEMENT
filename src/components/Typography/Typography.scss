@@ -1,0 +1,38 @@
+@import "src/styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.white {
+  color:  $color-white;
+}
+
+.black {
+  color: $color-black;
+}
+
+.red {
+  color: $color-red;
+}
+
+.weight_400 {
+  font-weight: 400;
+}
+
+.weight_500 {
+  font-weight: 500;
+}
+
+.size_12 {
+  font-size: 12px;
+}
+
+.size_14 {
+  font-size: 14px;
+}
+
+.size_16 {
+  font-size: 16px;
+}

@@ -1,0 +1,33 @@
+@import "src/styles/variables";
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
+  border-top: 1px solid $color-gray;
+
+  &__page {
+    margin-right: 20px;
+
+    & > select {
+      margin-left: 5px;
+    }
+  }
+
+  &__icon {
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &_disabled {
+      opacity: 0.3;
+
+      &:hover {
+        opacity: 0.3;
+      }
+    }
+  }
+}

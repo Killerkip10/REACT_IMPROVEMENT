@@ -1,0 +1,10 @@
+@import "src/styles/variables";
+@import "../NewsTable";
+
+@include TableRow();
+
+.row {
+  &:hover > div {
+    background-color: $color-gray;
+  }
+}

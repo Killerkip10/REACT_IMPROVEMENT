@@ -1,0 +1,23 @@
+@import "src/styles/variables";
+
+.header {
+  background-color: $color-black-light;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    padding: 16px;
+  }
+
+  &__menu {
+    display: flex;
+
+    &-link {
+      padding: 18px 24px;
+
+      &:hover, &_active {
+        background-color: $color-black;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+
+.users-create-form {
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    & > img {
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__field {
+    margin-top: 4px;
+
+    & > input, & > select {
+      box-sizing: border-box;
+      width: 100%;
+      border-style: solid;
+      border-width: 1px;
+    }
+
+    & > div {
+      min-height: 18px;
+    }
+
+    &_error {
+      border-color: $color-red;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+
+    & > button:first-child {
+      margin-right: 5px;
+    }
+  }
+}
